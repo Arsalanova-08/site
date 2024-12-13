@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header__nav,.card__general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btn{
+    padding: 10px 15px;
+    border: solid 2px #EB8383;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__title{
+    font-size:36px ;
+    color: #00940c;
+}
+.header__button{
+    padding: 10px 15px;
+    border: solid 2px #00B9E5;
+    border-radius: 10px;
+    background-color: transparent;
+}
+input{
+    border-radius: 10px;
+    background-color: #8c898952;
+    margin-top: 5px;
+    border: none;
+    padding: 8px;
+    width: 180px;
+}
+.header__right{
+    display: flex;
+    gap: 30px;
+}
+
+li a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.site{
+     margin-top: 50px;
+}
+.site__list{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #169541;
+    display: flex;
+    gap: 30px;
+}
+.site__title{
+    margin-top: 30px;
+    font-size: 36px;
+    text-align: center;
+    color: #053f18;
+}
+.site__general{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap:20px ;
+}
+.fanar__card{
+    margin-top: 20px;
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    color: white;
+}.container
+.cards{
+    gap: 10px;
+    margin-top: 50px;
+    color: white;
+    padding: 10px;
+    background-color: #22B152;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.cardss{
+    margin-top: 50px;
+    color: white;
+    padding: 20px;
+    background-color: #22b152;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 240px;  
+}
+.cards__doktor{
+    gap: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.DOKTOR__title,.DOKTOR__text{
+    text-align: center;
+}
+.doktor__img{
+    width: 90px;
+}
+.doktor__general{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
